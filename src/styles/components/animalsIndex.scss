@@ -1,0 +1,93 @@
+.animal-list{
+  margin-bottom: 30px;
+  margin-top: 30px;
+
+  .show-container{
+    background: white;
+    padding: 30px;
+    @extend %box-style;
+  }
+  button {
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }
+
+  .reset{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .filter-container{
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+
+    select{
+      margin-right: 25px;
+      width: 185px;
+      border: $border-style;
+    }
+
+    input{
+      border: $border-style;
+    }
+  }
+
+  .show-title{
+    margin-bottom: 0px;
+  }
+
+  .latin-name{
+    font-weight: 200;
+    font-style: italic;
+    font-size: 20px;
+  }
+
+  .animal{
+    margin-bottom: 20px;
+    >a{
+      text-decoration: none;
+      color: #000;
+    }
+    .card{
+      @extend %box-style;
+    
+      .card-img-top{
+        width: 100%;
+        height: 35vh;
+        object-fit: cover;
+      }
+
+      .card-body{
+        border-top: $border-style;
+        white-space: nowrap;
+        max-width: 100%;
+
+        .card-title {
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+
+        .seen {
+          color: black;
+        }
+
+        .not-seen {
+          color: black;
+        }
+
+        span{
+          font-weight: 200;
+          font-style: italic;
+        }
+
+        p{
+          position: absolute;
+          right: 20px;
+          bottom: 15px;
+        }
+      }
+    }
+  }
+}

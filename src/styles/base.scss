@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: $bg-grey;
+}
+
+img{
+  max-width: 100%;
+}
+
+.site-wrapper{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.spinner-wrapper{
+  text-align: center;
+  margin: 30px;
+  .spinner{
+    max-width: 30px;
+  }
+}
+
