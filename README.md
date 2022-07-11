@@ -72,7 +72,12 @@ In the My Journey section, a user is shown a list of animals they have already v
 ---
 ### Screenshots
 ---
+In the code below we setted the currentAnimal variable and we put the clicked animal inside the "myJourney" array. 
+![handle-click](/readme-images/handle-click-journey.png)
 
+The image below represent the function in which we get ten random animals from the API and then we set the "animals" variable to them.
+
+![get-function](/readme-images/get-function.png)
 
 ![Homepage](/readme-images/home-screen.png)
 ![Animals](/readme-images/animals-index.png)
