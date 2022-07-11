@@ -79,6 +79,7 @@ The image below represent the function in which we get ten random animals from t
 
 ![get-function](/readme-images/get-function.png)
 
+Here we have some screenshots from the site:
 ![Homepage](/readme-images/home-screen.png)
 ![Animals](/readme-images/animals-index.png)
 ![My Journey](/readme-images/my-journey.png)
